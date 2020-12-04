@@ -1,7 +1,6 @@
 package com.example.championslist
 
 import android.os.Bundle
-import android.text.Layout
 import android.util.Log
 import android.view.*
 import androidx.fragment.app.Fragment
@@ -9,11 +8,9 @@ import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.championslist.dummy.ChampionsContent
-import com.example.championslist.dummy.ChampionsContent.ITEMS
-import com.example.championslist.dummy.ChampionsContent.categoriesSelected
-import com.example.championslist.viewPager.ViewPagerFragment
-
+import com.example.championslist.content.ChampionsContent
+import com.example.championslist.content.ChampionsContent.ITEMS
+import com.example.championslist.content.ChampionsContent.categoriesSelected
 
 class ItemFragment : Fragment() {
 
@@ -22,9 +19,6 @@ class ItemFragment : Fragment() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setHasOptionsMenu(true)
-        arguments?.let {
-            columnCount = it.getInt(ARG_COLUMN_COUNT)
-        }
 
     }
 
@@ -41,8 +35,8 @@ class ItemFragment : Fragment() {
                     else -> GridLayoutManager(context, columnCount)
                 }
                 adapter = myAdapter
-                val itemTouchHelper = ItemTouchHelper(SwipeToDeleteCallback(myAdapter));
-                itemTouchHelper.attachToRecyclerView(view);
+                val itemTouchHelper = ItemTouchHelper(SwipeToDeleteCallback(myAdapter))
+                itemTouchHelper.attachToRecyclerView(view)
             }
         }
         return view
@@ -52,7 +46,7 @@ class ItemFragment : Fragment() {
 
 
     override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
-        inflater.inflate(R.menu.filter_items, menu);
+        inflater.inflate(R.menu.filter_items, menu)
         super.onCreateOptionsMenu(menu, inflater)
         for (i in 0 until menu.size())
             restoreMenuValues(menu.getItem(i))
@@ -109,8 +103,8 @@ class ItemFragment : Fragment() {
     private fun chooseByCat(champsList: MutableList<ChampionsContent.Champion>){
         Log.e("after delete", ITEMS.toString())
         champsList.clear()
-        for(item in ChampionsContent.ITEMS.filter { champion -> checkCat(champion) }) {
-            champsList.add(item);
+        for(item in ITEMS.filter { champion -> checkCat(champion) }) {
+            champsList.add(item)
         }
         myAdapter.notifyDataSetChanged()
     }
@@ -132,22 +126,6 @@ class ItemFragment : Fragment() {
         }
     }
 
-
-
-    companion object {
-
-        // TODO: Customize parameter argument names
-        const val ARG_COLUMN_COUNT = "column-count"
-
-        // TODO: Customize parameter initialization
-        @JvmStatic
-        fun newInstance(columnCount: Int) =
-            ItemFragment().apply {
-                arguments = Bundle().apply {
-                    putInt(ARG_COLUMN_COUNT, columnCount)
-                }
-            }
-    }
 
 
     }

@@ -5,12 +5,11 @@ import android.view.ViewGroup
 import android.widget.ImageButton
 import android.widget.ImageView
 import android.widget.TextView
-import androidx.navigation.Navigation
 import androidx.navigation.findNavController
 import androidx.recyclerview.widget.RecyclerView
-import com.example.championslist.dummy.ChampionsContent.Champion
-import com.example.championslist.dummy.ChampionsContent.ITEMS
-import com.example.championslist.dummy.ChampionsContent.currentChampion
+import com.example.championslist.content.ChampionsContent.Champion
+import com.example.championslist.content.ChampionsContent.ITEMS
+import com.example.championslist.content.ChampionsContent.currentChampion
 import kotlinx.android.synthetic.main.fragment_item.view.*
 
 

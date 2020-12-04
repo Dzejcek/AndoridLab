@@ -6,9 +6,9 @@
     <string name="marksman">Marksman</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="champion_skins">CHAMPION SKINS</string>
-    <string name="lee_hisotry"> Once a promising mage mage from Ionia, Lee Sin is a blind monk who sought redemption at the Shojin Monastery for a terrible mistake that cost innocent lives.
+    <string name="lee_hisotry"> Once a promising mage from Ionia, Lee Sin is a blind monk who sought redemption at the Shojin Monastery for a terrible mistake that cost innocent lives.
         In the midst of the Noxian invasion, his power became one with his flesh in a way none could have foreseen.
-        With burning fists fists and inhumanly powerful roundhouse kicks roundhouse kicks, he fights those who dare despoil his homeland</string>
+        With burning fists and inhumanly powerful roundhouse kicks roundhouse kicks, he fights those who dare despoil his homeland</string>
     <string name="braum_hisotry"> Blessed with massive muscles, and an even bigger heart, Braum is a beloved hero of the Freljord. Every child born to the ice knows of his legendary strength, capable of felling
         entire forests of frost-oaks in a single night or rending the very mountains asunder. With a colossal vault door vault door borne across his back as a shield,
         Braum roams the land as a friend to those in need and a terrible foe of evildoers.</string>
@@ -31,9 +31,17 @@ Deadly and precise, Xayah is a vastayan revolutionary waging a personal war to s
         Rakan, to protect their dwindling tribe and restore their race to her vision of its former glory.</string>
     <string name="jhin_history">"Art requires a certain… cruelty." - Jhin
 Jhin is a meticulous criminal psychopath who believes murder is art. Once an Ionian prisoner, but freed by shadowy elements within Ionias ruling council, the serial killer now works as their cabals assassin.
-        Using his gun gun as his paintbrush, Jhin creates works of artistic brutality, horrifying victims and onlookers. He gains a cruel pleasure from putting on his gruesome theater, making him the ideal choice to send the most powerful of messages: terror.</string>
+        Using his gun as his paintbrush, Jhin creates works of artistic brutality, horrifying victims and onlookers. He gains a cruel pleasure from putting on his gruesome theater, making him the ideal choice to send the most powerful of messages: terror.</string>
     <string name="champion_skin">champion skin</string>
     <string name="abilities">ABILITIES</string>
+    <string name="textview">TextView</string>
+    <string name="ability_q">ability q</string>
+    <string name="ability_w">ability w</string>
+    <string name="passive">passive</string>
+    <string name="ability_e">ability e</string>
+    <string name="ability_r">ability r</string>
+    <string name="icon">icon</string>
+    <string name="favourite_button">favourite button</string>
     <string-array name="zed_abilities">
         <item>INNATE: Zeds basic attacks against targets Healthbelow 50% of their maximum health deal 6 / 8 / 10% (based on level) of the targets maximum health as bonus magic damage</item>
         <item>ACTIVE: Zed and his Zeds  Shadows throw their spinning blades toward the target location. Each blade deals physical damage to all enemies struck, reduced to 60% against units beyond the first.</item>

@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".viewPager.screens.Skins"
     android:background="@color/white"
+    android:layout_gravity="center"
     >
 
 
@@ -17,28 +18,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-<!--        <TableRow-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="match_parent"-->
-<!--            android:gravity="center_horizontal"-->
-<!--            android:layout_marginTop="10dp"-->
-<!--            >-->
-
-<!--            <TextView-->
-<!--                android:id="@+id/title"-->
-<!--                android:layout_width="match_parent"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:text="@string/champion_skins"-->
-<!--                android:textSize="24sp"-->
-<!--                android:textColor="@color/myDark"-->
-<!--                tools:layout_editor_absoluteX="130dp"-->
-<!--                tools:layout_editor_absoluteY="106dp"-->
-<!--                tools:src="@tools:sample/avatars" />-->
-<!--        </TableRow>-->
 
         <androidx.cardview.widget.CardView
             android:id="@+id/card_skin1"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="40dp"
             android:layout_height="220dp"
             app:cardBackgroundColor="@color/myDark"
             >

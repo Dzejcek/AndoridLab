@@ -1,13 +1,7 @@
-package com.example.championslist.dummy
+package com.example.championslist.content
 
 import com.example.championslist.R
 import java.util.ArrayList
-
-const val lee_history = "Once a promising mage mage from Ionia, Lee Sin is a blind monk who sought redemption at the Shojin Monastery for a terrible mistake that cost innocent lives. " +
-        "In the midst of the Noxian invasion, his power became one with his flesh in a way none could have foreseen. " +
-        "With burning fists fists and inhumanly powerful roundhouse kicks roundhouse kicks, he fights those who dare despoil his homeland."
-
-
 
 object ChampionsContent {
 

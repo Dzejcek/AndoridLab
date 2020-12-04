@@ -54,14 +54,15 @@
                 android:layout_width="96dp"
                 android:layout_height="match_parent"
                 android:scaleType="fitXY"
-                tools:src="@tools:sample/avatars" />
+                tools:src="@tools:sample/avatars"
+                android:contentDescription="@string/passive" />
 
             <TextView
                 android:id="@+id/desc_passive"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginLeft="10dp"
-                android:text="TextView"
+                android:layout_marginStart="10dp"
+                android:text="@string/textview"
                 android:background="@color/white"
                 android:textColor="@color/myDark" />
         </TableRow>
@@ -84,14 +85,15 @@
                     android:layout_width="96dp"
                     android:layout_height="wrap_content"
                     android:scaleType="fitXY"
-                    tools:src="@tools:sample/avatars" />
+                    tools:src="@tools:sample/avatars"
+                    android:contentDescription="@string/ability_q" />
 
                 <TextView
                     android:id="@+id/desc_Q"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_marginLeft="10dp"
-                    android:text="TextView"
+                    android:layout_marginStart="10dp"
+                    android:text="@string/textview"
                     android:textColor="@color/myDark" />
 
             </TableRow>
@@ -116,14 +118,15 @@
                     android:layout_width="96dp"
                     android:layout_height="wrap_content"
                     android:scaleType="fitXY"
-                    tools:src="@tools:sample/avatars" />
+                    tools:src="@tools:sample/avatars"
+                    android:contentDescription="@string/ability_w" />
 
                 <TextView
                     android:id="@+id/desc_W"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_marginLeft="10dp"
-                    android:text="TextView"
+                    android:layout_marginStart="10dp"
+                    android:text="@string/textview"
                     android:textColor="@color/myDark" />
 
             </TableRow>
@@ -145,14 +148,15 @@
                     android:layout_width="96dp"
                     android:layout_height="wrap_content"
                     android:scaleType="fitXY"
-                    tools:src="@tools:sample/avatars" />
+                    tools:src="@tools:sample/avatars"
+                    android:contentDescription="@string/ability_e" />
 
                 <TextView
                     android:id="@+id/desc_E"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_marginLeft="10dp"
-                    android:text="TextView"
+                    android:layout_marginStart="10dp"
+                    android:text="@string/textview"
                     android:textColor="@color/myDark" />
 
             </TableRow>
@@ -174,14 +178,15 @@
                     android:layout_width="96dp"
                     android:layout_height="wrap_content"
                     android:scaleType="fitXY"
-                    tools:src="@tools:sample/avatars" />
+                    tools:src="@tools:sample/avatars"
+                    android:contentDescription="@string/ability_r" />
 
                 <TextView
                     android:id="@+id/desc_R"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_marginLeft="10dp"
-                    android:text="TextView"
+                    android:layout_marginStart="10dp"
+                    android:text="@string/textview"
                     android:textColor="@color/myDark" />
 
             </TableRow>

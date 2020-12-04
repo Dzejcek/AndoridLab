@@ -6,7 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.example.championslist.R
-import com.example.championslist.dummy.ChampionsContent
+import com.example.championslist.content.ChampionsContent
 import kotlinx.android.synthetic.main.fragment_description.view.*
 
 

@@ -5,13 +5,10 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.navigation.fragment.navArgs
-import com.example.championslist.ItemFragment
 import com.example.championslist.R
-import com.example.championslist.dummy.ChampionsContent.contentMap
-import com.example.championslist.dummy.ChampionsContent.currentChampion
+import com.example.championslist.content.ChampionsContent.contentMap
+import com.example.championslist.content.ChampionsContent.currentChampion
 import kotlinx.android.synthetic.main.fragment_abilities.view.*
-import kotlinx.android.synthetic.main.fragment_item.view.*
 
 
 class Abilities : Fragment() {

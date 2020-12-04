@@ -11,7 +11,8 @@
     android:foreground="?selectableItemBackground"
     card_view:cardBackgroundColor="#FFFF"
     card_view:cardCornerRadius="8dp"
-    card_view:contentPadding="10dp">
+    card_view:contentPadding="10dp"
+    android:focusable="true">
 
     <LinearLayout
         android:id="@+id/linear"
@@ -24,14 +25,15 @@
             android:layout_width="120dp"
             android:layout_height="100dp"
             android:layout_weight="1"
-            card_view:srcCompat="@drawable/ic_launcher_foreground" />
+            card_view:srcCompat="@drawable/ic_launcher_foreground"
+            android:contentDescription="@string/icon" />
 
         <TextView
             android:id="@+id/champ_name"
             android:layout_width="120dp"
             android:layout_height="100dp"
             android:layout_weight="1"
-            android:text="TextView"
+            android:text="@string/textview"
             android:gravity="center"
             android:textColor="@color/myDark"
             android:textAlignment="center"
@@ -43,7 +45,7 @@
             android:layout_width="140dp"
             android:layout_height="100dp"
             android:layout_weight="1"
-            android:text="TextView"
+            android:text="@string/textview"
             android:textColor="@color/myDark"
             android:textAlignment="center"
             android:gravity="center"
@@ -57,7 +59,8 @@
             android:layout_marginTop="25dp"
             android:layout_weight="1"
             android:background="#FFFF"
-            card_view:srcCompat="@drawable/fav" />
+            card_view:srcCompat="@drawable/fav"
+            android:contentDescription="@string/favourite_button" />
 
 
     </LinearLayout>
