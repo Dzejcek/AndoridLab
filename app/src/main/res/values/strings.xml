@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">Champions list</string>
+    <string name="favourite">Favourite</string>
+    <string name="bruiser">Bruiser</string>
+    <string name="mage">Mage</string>
+    <string name="marksman">Marksman</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="champion_skins">CHAMPION SKINS</string>
+    <string name="lee_hisotry"> Once a promising mage mage from Ionia, Lee Sin is a blind monk who sought redemption at the Shojin Monastery for a terrible mistake that cost innocent lives.
+        In the midst of the Noxian invasion, his power became one with his flesh in a way none could have foreseen.
+        With burning fists fists and inhumanly powerful roundhouse kicks roundhouse kicks, he fights those who dare despoil his homeland</string>
+    <string name="braum_hisotry"> Blessed with massive muscles, and an even bigger heart, Braum is a beloved hero of the Freljord. Every child born to the ice knows of his legendary strength, capable of felling
+        entire forests of frost-oaks in a single night or rending the very mountains asunder. With a colossal vault door vault door borne across his back as a shield,
+        Braum roams the land as a friend to those in need and a terrible foe of evildoers.</string>
+    <string name="zed_hisotry">"Balance is a lie - we are the true ninjas." - Zed
+        Utterly ruthless and without mercy, Zed is the leader of the Order of Shadow, an organization he created with the intent of militarizing Ionias martial arts traditions to drive out Noxian invaders.
+        During the war, desperation led him to unlock the secret shadow form—a malevolent spirit magic as dangerous and corrupting as it is powerful. Zed has mastered all of these forbidden techniques to destroy anything he sees as a threat to his nation, or his new order. </string>
+    <string name="vlad_hisotry">"That which runs through you will run you through." - Vladimir
+        There is a temple hidden in the mountains between Noxus and the Tempest Flats, where the secrets of an ancient and terrifying sorcery are kept. The area surrounding the temple is littered with the exsanguinated corpses of those who have mistakenly wandered too close.
+        These served only to pique the curiosity of Vladimir, when - in his youth - he trekked through these mountains during his flight from Noxus. A day earlier, the teenaged Vladimir had brutally murdered two boys of his age, for no better reason than to enjoy the intoxicating scarlet bloom that surged forth.</string>
+    <string name="jayce_history">"Trust me: if were smart, Piltover can stand strong against any threat. Hey, Im living proof." - Jayce Jayce
+Armed with wit, charm, and his signature transforming hammer, Jayce lives to protect his native Piltover. He rose to prominence as an inventor, one whose magnetic personality and innovative creations brightened the lives of his nations people.
+        However, his technological marvels also attracted the attention of Piltovers enemies. Viktor, the machine-augmented scientist from Zaun, staged a deadly raid on Jayces laboratory, barely impeded by the labs meager security force.
+        Viktor stole designs for an arcane power converter. Jayce feared that Viktor would create weapons of devastating power with the stolen technology.</string>
+    <string name="syndra_history">"Power belongs to those who can wield it." - Syndra
+Syndra is a fearsome dark mage with incredible power at her command. As a child of Ionia, she disturbed the village elders with her prodigious but reckless use of magic.
+        They sent her away to be trained under strict supervision, but she quickly surpassed her mentor and discovered he was restrahotining her powers.
+        Betrayed and disgusted by such cowardice, Syndra eliminated her teacher and struck out to destroy all who would try to limit her potential, dark spheres in hand.</string>
+    <string name="xayah_history">"Ever been stabbed by a feather?" - Xayah
+Deadly and precise, Xayah is a vastayan revolutionary waging a personal war to save her people. She uses her speed, guile, and razor-sharp feather blades feather blades to cut down anyone who stands in her way. Xayah fights alongside her partner and lover,
+        Rakan, to protect their dwindling tribe and restore their race to her vision of its former glory.</string>
+    <string name="jhin_history">"Art requires a certain… cruelty." - Jhin
+Jhin is a meticulous criminal psychopath who believes murder is art. Once an Ionian prisoner, but freed by shadowy elements within Ionias ruling council, the serial killer now works as their cabals assassin.
+        Using his gun gun as his paintbrush, Jhin creates works of artistic brutality, horrifying victims and onlookers. He gains a cruel pleasure from putting on his gruesome theater, making him the ideal choice to send the most powerful of messages: terror.</string>
+    <string name="champion_skin">champion skin</string>
+    <string name="abilities">ABILITIES</string>
+    <string-array name="zed_abilities">
+        <item>INNATE: Zeds basic attacks against targets Healthbelow 50% of their maximum health deal 6 / 8 / 10% (based on level) of the targets maximum health as bonus magic damage</item>
+        <item>ACTIVE: Zed and his Zeds  Shadows throw their spinning blades toward the target location. Each blade deals physical damage to all enemies struck, reduced to 60% against units beyond the first.</item>
+        <item>ACTIVE: Zeds Shadow dashes to the target location, remaining in place for 5 seconds and being able to mimic Razor Shuriken Razor Shuriken and Shadow Slash  while in range of each other.</item>
+        <item>Enemies hit by the slash of a Zeds Shadow are Slow icon.png slowed for 1.5 seconds. Enemies hit by multiple slashes take no additional damage but the slows potency is increased by 50%.</item>
+        <item>ACTIVE: Zed becomes untargetable and, after 0.6 seconds, he Dash.png dashes through the target enemy Champion icon.png champion over 0.4 seconds, after which he marks them, gains Ghost.png ghosting for 3 seconds.</item>
+    </string-array>
+
+    <string-array name="vlad_abilities">
+        <item>INNATE: Vladimir gains (2.5% bonus health) as Ability power icon.png ability power and (140% AP) as Health icon.png bonus health. These two bonuses do not stack with each other.</item>
+        <item>ACTIVE: Vladimir drains blood from the target enemy, dealing magic damage and Heal healing himself.</item>
+        <item>ACTIVE: Vladimir sinks into a pool of blood, gaining Movement speed icon.png 37.5% bonus movement speed which decays exponentially over 1 second and becoming Playful.png untargetable and Ghost.png ghosted for 2 seconds.</item>
+        <item>ACTIVE: Vladimir Channeling charges for up to 1.5 seconds, slowing himself by 20% if he charges for more than 1 second. Tides of Blood can be recast at any time within its duration. If Vladimir finishes charging or is Silence interrupted.</item>
+        <item>ACTIVE: Vladimir infects all enemies in the target area with a virulent plague, increasing the damage they take from all sources by 10% for 4 seconds, after which all infected enemies take magic damage.</item>
+    </string-array>
+    <string-array name="xayah_abilities">
+        <item>LOVERS LEAP: If either Xayah or Rakan Rakan is channeling Recall Recall, the other may move nearby and channel their own to join them. Both reach base at the time of which the initiators recall ends.</item>
+        <item>ACTIVE: Xayah throws two feather-blades in the target direction in quick succession, dealing physical damage to all enemies hit and each leaving a Feather on the ground.</item>
+        <item>ACTIVE: Xayah creates a storm of blades for 4 seconds that grants her Attack speed icon.png bonus attack speed and causes her basic attacks to strike the target an additional time for 20% damage.</item>
+        <item>ACTIVE: Xayah calls all Feathers back to her, dealing physical damage to enemies they pass through, increased by 0% − 50% (based on critical chance). Minion icon.png Minions take 50% damage.</item>
+        <item>ACTIVE: Xayah leaps into the air, becoming untargetable and ghosted for 1.5 seconds, then rains down daggers in a cone in the target direction which deal physical damage to enemies hit and leave behind a line of 5 Feathers.</item>
+    </string-array>
+    <string-array name="jhin_abilities">
+        <item>INNATE: Additionally, Critical strike icon.png critical strikes grant Jhin 10% (+ 0.4% per 1% bonus attack speed) Movement speed bonus movement speed for 2 seconds.</item>
+        <item>ACTIVE: Jhin launches a canister at the target enemy, dealing them physical damage. The canister then bounces to up to three additional nearby enemies beyond the first, dealing them the same damage.</item>
+        <item>ACTIVE: Jhin fires a shot in the target direction that deals physical damage to all enemies in a line until colliding with an enemy champion, reduced by 25% against non-champions.</item>
+        <item>ACTIVE: Jhin places a Lotus Trap at the target location which, upon landing, becomes Noxious Trap.png stealthed after arming over 1 second, lasting for up to 180 seconds and granting Sight icon.png sight within its radius</item>
+        <item>ACTIVE: Jhin Channeling icon.png channels and Sight icon.png reveals himself for up to 10 seconds, gaining a wider field of view, though not a larger Sight vision range.</item>
+    </string-array>
+    <string-array name="jayce_abilities">
+        <item>INNATE: Each time Jayce switches between Hammer Stance and Cannon Stance.</item>
+        <item>ACTIVE: Jayce leaps to the target enemys location and smashes his hammer on the ground upon arrival, dealing physical damage to all..</item>
+        <item>ACTIVE: Jayce surrounds himself with an electric field for 4 seconds, dealing magic damage each second to all nearby enemies.</item>
+        <item>ACTIVE: Jayce swings his hammer at the target enemy, dealing magic damage, capped against monsters.</item>
+        <item>ACTIVE: Jayce transforms the Mercury Hammer Mercury Hammer into the Mercury Cannon, gaining access to its abilities.</item>
+    </string-array>
+    <string-array name="syndra_abilities">
+        <item>INNATE: Each of Syndras abilities gain an additional effect at maximum rank.</item>
+        <item>ACTIVE: After 0.6 seconds, Syndra conjures a Dark Sphere at the target location, dealing magic damage to all enemies hit, which then remains for 6 seconds.</item>
+        <item>ACTIVE: Syndra telekinetically grabs the nearest Dark Sphere Dark Sphere.</item>
+        <item>ACTIVE: Syndra Airborne icon.png knocks back all enemies in a cone in the target direction for 400 units and up to 800 units away from her based on proximity, dealing magic damage.</item>
+        <item>ACTIVE: Syndra grabs up to 4 nearby Dark Spheres Dark Spheres that were last spawned and the three orbiting around her and hurls them at the target enemy Champion icon.png champion, dealing magic damage per sphere.</item>
+    </string-array>
+    <string-array name="lee_abilities">
+        <item>INNATE: After using an ability, Lee Sins next 2 basic attacks within 3 seconds gain Attack speed icon.png 40% bonus attack speed.</item>
+        <item>ACTIVE: Lee Sin fires a sonic blast in the target direction, dealing physical damage to the first enemy it hits and True Sight icon.png revealing them for 3 seconds.</item>
+        <item>ACTIVE: Lee Sin Dash.png dashes to the target allied units location. If the ally is a champion, both they and Lee Sin are granted a Hybrid resistances shield for 2 seconds.</item>
+        <item>ACTIVE: Lee Sin smashes the ground, dealing magic damage to nearby enemies, marking them for 4 seconds and, if they are not Twilight Shroud invisible when struck.</item>
+        <item>ACTIVE: Lee Sin Root roots the target enemy champion during the cast time after which he roundhouse kicks them, dealing physical damage and knocking them back 1200 units over 1 second.</item>
+    </string-array>
+    <string-array name="braum_abilities">
+        <item>INNATE: Braums basic attacks and Winters Bite each apply Concussive Blows to his target for 4 seconds, stacking up to 4 times, refreshing with each application.</item>
+        <item>ACTIVE: Braum propels ice from his shield in the target direction, dealing magic damage to the first enemy hit and slowing them by 70% decaying over 2 seconds.</item>
+        <item>ACTIVE: Braum Dash.png dashes to the target allys location, positioning himself between their location and the closest enemy champion.</item>
+        <item>ACTIVE: Braum raises his shield in the target direction for a few seconds, creating a barrier that intercepts incoming enemy  projectiles and Damage reduction.</item>
+        <item>ACTIVE: Braum leaps into the air and slams his shield into the ground, creating a fissure in the target direction that deals magic damage to enemies as well as those around him.</item>
+    </string-array>
+
+</resources>

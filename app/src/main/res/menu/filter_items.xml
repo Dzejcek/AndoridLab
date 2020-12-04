@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="all"
+        android:id="@+id/menu_group"
+        >
+        <item
+            android:id="@+id/marksman"
+            android:title="@string/marksman"
+            app:showAsAction="never"
+            />
+        <item
+            android:id="@+id/mage"
+            android:title="@string/mage"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/bruiser"
+            android:title="@string/bruiser"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/favourite"
+            android:title="@string/favourite"
+            app:showAsAction="never" />
+    </group>
+</menu>
