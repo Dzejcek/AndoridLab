@@ -8,7 +8,7 @@
     android:layout_height="match_parent"
     android:layout_marginLeft="0dp"
     android:layout_marginRight="0dp"
-    android:background="@color/myDark"
+    android:background="@color/white"
     app:layoutManager="LinearLayoutManager"
     tools:context=".ItemFragment"
     tools:listitem="@layout/fragment_item" />

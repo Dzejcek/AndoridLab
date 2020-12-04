@@ -9,7 +9,7 @@
     android:layout_marginRight="2dp"
     android:clickable="true"
     android:foreground="?selectableItemBackground"
-    card_view:cardBackgroundColor="#FFFF"
+    card_view:cardBackgroundColor="@color/myDark"
     card_view:cardCornerRadius="8dp"
     card_view:contentPadding="10dp"
     android:focusable="true">
@@ -23,10 +23,11 @@
         <ImageView
             android:id="@+id/champ_icon"
             android:layout_width="120dp"
-            android:layout_height="100dp"
+            android:layout_height="match_parent"
             android:layout_weight="1"
-            card_view:srcCompat="@drawable/ic_launcher_foreground"
-            android:contentDescription="@string/icon" />
+            android:scaleType="fitXY"
+            android:contentDescription="@string/icon"
+            card_view:srcCompat="@drawable/ic_launcher_foreground" />
 
         <TextView
             android:id="@+id/champ_name"
@@ -35,7 +36,7 @@
             android:layout_weight="1"
             android:text="@string/textview"
             android:gravity="center"
-            android:textColor="@color/myDark"
+            android:textColor="@color/itemTextColor"
             android:textAlignment="center"
             android:textSize="24sp"
             android:textStyle="bold" />
@@ -46,7 +47,7 @@
             android:layout_height="100dp"
             android:layout_weight="1"
             android:text="@string/textview"
-            android:textColor="@color/myDark"
+            android:textColor="@color/itemTextColor"
             android:textAlignment="center"
             android:gravity="center"
             android:textSize="24sp"
@@ -58,7 +59,7 @@
             android:layout_height="50dp"
             android:layout_marginTop="25dp"
             android:layout_weight="1"
-            android:background="#FFFF"
+            android:background="@color/myDark"
             card_view:srcCompat="@drawable/fav"
             android:contentDescription="@string/favourite_button" />
 

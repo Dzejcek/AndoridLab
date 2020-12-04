@@ -6,5 +6,8 @@
     <color name="myDark">#000000</color>
     <color name="myRed">#A10000</color>
     <color name="white">#FFFFFF</color>
-    <color name="gray">#E6EAE9</color>
+    <color name="gray">#A3A8A7</color>
+    <color name="textColor">#FFFFFF</color>
+    <color name="textBgColor">#000000</color>
+    <color name="itemTextColor">#FFFFFF</color>
 </resources>

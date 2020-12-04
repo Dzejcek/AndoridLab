@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".viewPager.screens.Abilities"
-    android:background="@color/gray"
+    android:background="@color/myDark"
     >
 
 
@@ -30,7 +30,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/abilities"
                 android:textSize="24sp"
-                android:textColor="@color/myDark"
+                android:textColor="@color/white"
                 tools:layout_editor_absoluteX="130dp"
                 tools:layout_editor_absoluteY="106dp"
                 tools:src="@tools:sample/avatars" />
@@ -41,12 +41,12 @@
             android:layout_marginTop="20dp"
             android:layout_height="100dp"
             app:cardBackgroundColor="@color/white"
-            android:padding="10dp"
             >
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center_horizontal"
+            android:padding="2dp"
             >
 
             <ImageView
@@ -61,10 +61,10 @@
                 android:id="@+id/desc_passive"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginStart="10dp"
                 android:text="@string/textview"
-                android:background="@color/white"
-                android:textColor="@color/myDark" />
+                android:textAlignment="center"
+                android:background="@color/textBgColor"
+                android:textColor="@color/textColor" />
         </TableRow>
         </androidx.cardview.widget.CardView>
 
@@ -79,6 +79,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
+                android:padding="2dp"
                 >
                 <ImageView
                     android:id="@+id/img_Q"
@@ -92,9 +93,10 @@
                     android:id="@+id/desc_Q"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_marginStart="10dp"
                     android:text="@string/textview"
-                    android:textColor="@color/myDark" />
+                    android:textAlignment="center"
+                    android:background="@color/textBgColor"
+                    android:textColor="@color/textColor" />
 
             </TableRow>
         </androidx.cardview.widget.CardView>
@@ -111,6 +113,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
+                android:padding="2dp"
                 >
 
                 <ImageView
@@ -125,9 +128,10 @@
                     android:id="@+id/desc_W"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_marginStart="10dp"
                     android:text="@string/textview"
-                    android:textColor="@color/myDark" />
+                    android:textAlignment="center"
+                    android:background="@color/textBgColor"
+                    android:textColor="@color/textColor" />
 
             </TableRow>
         </androidx.cardview.widget.CardView>
@@ -142,6 +146,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
+                android:padding="2dp"
                 >
                 <ImageView
                     android:id="@+id/img_E"
@@ -155,9 +160,10 @@
                     android:id="@+id/desc_E"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_marginStart="10dp"
                     android:text="@string/textview"
-                    android:textColor="@color/myDark" />
+                    android:textAlignment="center"
+                    android:background="@color/textBgColor"
+                    android:textColor="@color/textColor" />
 
             </TableRow>
         </androidx.cardview.widget.CardView>
@@ -172,6 +178,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal"
+                android:padding="2dp"
                 >
                 <ImageView
                     android:id="@+id/img_R"
@@ -185,9 +192,10 @@
                     android:id="@+id/desc_R"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_marginStart="10dp"
                     android:text="@string/textview"
-                    android:textColor="@color/myDark" />
+                    android:textAlignment="center"
+                    android:background="@color/textBgColor"
+                    android:textColor="@color/textColor" />
 
             </TableRow>
         </androidx.cardview.widget.CardView>
